@@ -5,5 +5,5 @@ import java.math.BigDecimal;
 public interface Desconto {
 
 	BigDecimal aplicaDescontoSobre(BigDecimal precoOriginal);
-	
+	String getDescricao();
 }
